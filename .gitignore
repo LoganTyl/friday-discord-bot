@@ -131,3 +131,6 @@ dist
 
 # Private variables in configuration
 config.json
+
+# Not pushing forward attachments I want to be sent on the bot
+attachments/*
