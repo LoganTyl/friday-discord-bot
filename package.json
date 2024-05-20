@@ -4,7 +4,8 @@
   "description": "A funny automated bot idea for Discord that my friends wanted me to make",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reload": "node ./deploy-commands.js && node bot.js"
   },
   "repository": {
     "type": "git",
