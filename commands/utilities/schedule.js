@@ -1,5 +1,5 @@
 const {SlashCommandBuilder} = require('discord.js');
-const timeRegex = new RegExp(`^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$`, 'i')
+const timeRegex = new RegExp(`^([0-1]?[0-9]|2[0-3]):[0-5][0-9](:[0-5][0-9])?$`, 'i')
 
 module.exports = {
     data: new SlashCommandBuilder()
